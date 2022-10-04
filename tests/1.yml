@@ -1,0 +1,7 @@
+---
+- item: hello
+  integer: 42
+  float: 3.4
+- item: putas
+  vinho: verde
+...

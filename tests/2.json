@@ -1,0 +1,13 @@
+[
+    {
+        "document-no": 1,
+        "item": 42
+    },
+    {
+        "document-no": 2,
+        "item": [
+            "dred",
+            42
+        ]
+    }
+]
