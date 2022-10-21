@@ -1,4 +1,5 @@
 y2j.so
 y2j.a
+liby2j.*
 y2j-header-only.h
 *.o

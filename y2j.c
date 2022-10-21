@@ -132,10 +132,11 @@ _y2j_parse_mapping(yaml_parser_t *parser)
 	}
 
 	yaml_event_t ev_k, ev_v;
+	json_t *value;
 	while(1) {
 break_2:
 		// key: node
-		json_t *value = NULL;
+		value = NULL;
 
 		// key
 		if(!yaml_parser_parse(parser, &ev_k)) {
